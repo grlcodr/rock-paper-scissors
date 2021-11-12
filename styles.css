@@ -60,6 +60,7 @@ header > h1 {
     color: white;
     font-family: 'Mouse Memoirs', sans-serif;
     text-align: center;
+    margin-top: 20px;
 }
 
 .choices {
@@ -84,7 +85,6 @@ header > h1 {
 
 .choice:hover {
     cursor: pointer;
-    background-color: #F3CC64;
 }
 
 #action-message {
@@ -93,4 +93,40 @@ header > h1 {
     font-family: 'Mouse Memoirs', sans-serif;
     font-size: 30px;
     margin-top: 20px;
+}
+
+#user-choice {
+    text-align: center;
+    color: white;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    display: none;
+}
+
+#computer-choice {
+    text-align: center;
+    color: white;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    display: none;
+}
+
+.green-glow {
+    border: 3px solid #0a9b72;
+    box-shadow: 0 0 10px #077254;
+    background-color: #0a9b72;
+}
+
+.pink-glow {
+    border: 3px solid #FA4980;
+    box-shadow: 0 0 10px #c93a67;
+    background-color: #FA4980;
+}
+
+.blue-glow {
+    border: 3px solid #144D7A;
+    box-shadow: 0 0 10px #0d3655;
+    background-color: #144D7A;
 }
